@@ -53,6 +53,7 @@ btnBuscar.addEventListener("click", () => {
 });
 
 
+
 // Grafico myChart
 async function getMonedasPorFecha() {
     const endpoint = "https://mindicador.cl/api/dolar"; 
@@ -96,6 +97,7 @@ async function renderGrafica() {
     const chartDOM = document.getElementById("myChart");
     new Chart(chartDOM, config);
     }
+// fin grafico
 
 renderGrafica();
 
